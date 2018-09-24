@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+	<title>Responsive Navigation Bar</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleslide.css">
+	<link rel="stylesheet" href="css/jquery.lightbox.min.css">
+
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery.lightbox.min.js"></script>
+	<script src="js/validarut.js"></script>
+	<script>
+		$(function () {
+			$('.gallery a').lightbox();
+		});
+	</script>
+
+
+</head>
+
+<body>
+	<div id="header">
+		<div id="logo">
+			<img src="img/logo.png" alt="logo">
+		</div>
+
+		<ul id="navbar">
+			<li>
+				<a href="#">Inicio</a>
+			</li>
+			<li>
+				<a href="#">Quienes Somos</a>
+			</li>
+			<li>
+				<a href="#">Servicios</a>
+			</li>
+			<li>
+				<a href="#final">Contactanos</a>
+			</li>
+
+		</ul>
+	</div>
+
+	<section class="section-perro">
+		<section id="pic">
+			<div id="wowslider-container1">
+				<div class="ws_images">
+					<ul>
+						<li>
+							<img src="img/adoptados/Apolo.jpg" alt="Apolo" title="Apolo" id="wows1_0" />
+						</li>
+						<li>
+
+							<img src="img/adoptados/Duque.jpg" alt="Duque" title="Duque" id="wows1_1" />
+
+						</li>
+						<li>
+							<img src="img/adoptados/Tom.jpg" alt="Tom" title="Tom" id="wows1_2" />
+						</li>
+					</ul>
+				</div>
+				<div class="ws_bullets">
+					<div>
+						<a href="#" title="Apolo">
+							<span>
+								<img src="img/adoptados/chica/apolo.jpg" alt="Apolo" />1</span>
+						</a>
+						<a href="#" title="Duque">
+							<span>
+								<img src="img/adoptados/chica/duque.jpg" alt="Duque" />2</span>
+						</a>
+						<a href="#" title="Tom">
+							<span>
+								<img src="img/adoptados/chica/tom.jpg" alt="Tom" />3</span>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<script  src="js/wowslider.js"></script>
+			<script  src="js/script.js"></script>
+		</section>
+
+		<section class="section-texto">
+
+			<section id="telefono">
+				<p>+569 98765242</p>
+			</section>
+			<section id="slogan">
+				<p>Rescate y adopción de perros callejeros</p>
+			</section>
+			<section id="redes-sociales">
+				<a href="https://www.facebook.com" target="_blank">
+					<img class="section-imagen" src="img/facebook.png" alt="facebook">
+				</a>
+				<a href="https://plus.google.com" target="_blank">
+					<img class="section-imagen" src="img/google.png" alt="google">
+				</a>
+				<a href="https://www.instagram.com" target="_blank">
+					<img class="section-imagen" src="img/instagram.png" alt="instagram">
+				</a>
+				<a href="https://www.google.com/gmail" target="_blank">
+					<img class="section-imagen" src="img/email.png" alt="email">
+				</a>
+			</section>
+		</section>
+
+		<section class="contenido">
+			<section id="izquierdo">
+				<p class="derecha" id="grende-izquierdo">RESCATE</p>
+				<p class="derecha" id="subtitulo-izquierdo">ETAPA UNO</p>
+				<hr>
+				<br>
+				<p class="derecha" id="descripcion-izquierdo">Rescatamos perros en situación de peligro y/o abandono.Los rehabilitamos y los preparamos para buscarles un hogar.</p>
+				<img class="imagen-izquierdo" src="img/rescate.jpg" alt="Rescate">
+			</section>
+			<section id="derecho">
+				<img src="img/crowfunding.jpg" alt="crowfunding">
+				<p id="grande-derecho">CROWDFUNDING</p>
+				<p id="subtitulo-derecho">FINANCIAMIENTO</p>
+				<hr>
+				<p id="descripcion-derecho">Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos para obtener
+					financiamiento para seguir ayudando.</p>
+
+				<button id="btn-1">CAMPAÑAS</button>
+
+			</section>
+		</section>
+
+	</section>
+	<section id="galeria">
+
+		<p>PERRITOS RESCATADOS</p>
+		<section class="container">
+
+
+			<ul class="gallery">
+				<li>
+					<a href="img/rescatados/Bigotes.jpg">
+						<img src="img/rescatados/Bigotes.jpg" alt="Image">
+					</a>
+				</li>
+				<li>
+					<a href="img/rescatados/Chocolate.jpg">
+						<img src="img/rescatados/Chocolate.jpg" alt="Image">
+					</a>
+				</li>
+				<li>
+					<a href="img/rescatados/Luna.jpg">
+						<img src="img/rescatados/Luna.jpg" alt="Image">
+					</a>
+				</li>
+				<li>
+					<a href="img/rescatados/Maya.jpg">
+						<img src="img/rescatados/Maya.jpg" alt="Image">
+					</a>
+				</li>
+				<li>
+					<a href="img/rescatados/Oso.jpg">
+						<img src="img/rescatados/Oso.jpg" alt="Image">
+					</a>
+				</li>
+				<li>
+					<a href="img/rescatados/Pexel.jpg">
+						<img src="img/rescatados/Pexel.jpg" alt="Image">
+					</a>
+				</li>
+				<li>
+					<a href="img/rescatados/Wifi.jpg">
+						<img src="img/rescatados/Wifi.jpg" alt="Image">
+					</a>
+				</li>
+
+			</ul>
+		</section>
+
+	</section>
+	<a name="final"></a>
+	<section id="formu">
+
+		<form action="/action_page.php" name="formulario" method="POST" onsubmit="javascript:return Rut(document.formulario.rut.value)">
+			<h2>CONTACTO</h2>
+			<br>
+			<label class="leb"  for="correo" >Email:</label>
+			<br>
+			<input type="email" id="correo" name="correo" required placeholder="Ejemplo@hotmail.com">
+			<br>
+			<label class="leb" for="rut">Rut:</label>
+			<br>
+			<input type="text" id="rut" name="rut" required placeholder="12345678-9">
+			<br>
+			<label class="leb" for="nombre">Nombre:</label>
+			<br>
+			<input type="text" id="nombre" name="nombre" required placeholder="Nombre Completo">
+			<br>
+			<label class="leb" for="fecha">Fecha:</label>
+			<br>
+			<input type="date" id="fecha" value="2000-12-31" max="2000-12-31" name="fecha">
+			<br>
+			<label class="leb" for="telefono-2">Telefono:</label>
+			<br>
+			<input type="tel" id="telefono-2" required maxlength="8" title="Numero de 8 Cifras" name="telefono" placeholder="Numero Telefonico">
+			<br>
+			<label class="leb" for="regiones">Region:</label>
+			<br>
+			<select name="region" id="regiones" ></select>
+			<br>
+			<label class="leb" for="comunas">Comuna:</label>
+			<br>
+			<select name="comuna" id="comunas" ></select>
+			<br>
+			<label class="leb" for="tip-vivienda">Tipo Vivienda:</label>
+			<br>
+			<select name="vivienda" id="tip-vivienda" >
+				<option value="0">Tipo Vivienda</option>
+				<option value="1">Casa con patio grande</option>
+				<option value="2">Casa con patio pequeño</option>
+				<option value="3">Casa sin patio</option>
+				<option value="4">Despartamento</option>
+			</select>
+			<button type="submit" id="btn" name="btn" class="btt" value="Contartar">Contartar</button>
+		</form>
+		<script>
+			(function () {
+				var formulario = document.getElementsByName('formulario')[0],
+					elementos = formulario.elements,
+					boton = document.getElementById('btn');
+
+				var validarNombre = function (e) {
+					if (formulario.nombre.value.length < 5) {
+						alert("Campo nombre min 6 caracteres");
+						e.preventDefault();
+					}
+
+				};
+				var validarTelefono = function (e) {
+					if (formulario.telefono.value.length != "8") {
+						alert("Telefono 8 caracteres exacto");
+						e.preventDefault();
+					}
+				};
+
+				var validarRegion = function (e) {
+					if (formulario.region.value == "sin-region") {
+						alert("Seleccione una region");
+						e.preventDefault();
+					}
+				};
+				var validarComuna = function (e) {
+					if (formulario.comuna.value == "sin-comuna") {
+						alert("Seleccione una comuna");
+						e.preventDefault();
+					}
+				};
+				var validarVivienda = function (e) {
+					if (formulario.vivienda.value=="0") {
+						alert("Seleccione una Vivenda");
+						e.preventDefault();
+					}
+				};
+
+
+
+
+				var validar = function (e) {
+					validarNombre(e);
+					validarTelefono(e);
+					validarRegion(e);
+					validarComuna(e);
+					validarVivienda(e);
+
+				};
+
+
+
+				formulario.addEventListener("submit", validar);
+
+			}())
+		</script>
+
+	</section>
+	<footer>
+		<p>Desarrollo web y Mobile</p>
+	</footer>
+
+</body>
+
+</html>
